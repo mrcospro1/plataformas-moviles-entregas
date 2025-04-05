@@ -1,0 +1,55 @@
+body{
+    background-color: #222;
+    color:ee6;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+h{
+    color: #eee;
+    text-transform: uppercase;
+}
+strong{
+    color:#444
+}
+.the-force{
+    color: 66f;
+    font-weight: bold;
+}
+.light-side{
+    color:#66f;
+}
+.dark-side{
+    color:#f33;
+}
+#og-trilogy{
+    list-style-type: circle;
+}
+ul:nth-of-type(2){
+    padding-left: 20px;
+}
+ul:nth-of-type(3) :last-child{
+margin-top: 200px;
+}
+p:first-child::first-line{
+color: #efe;
+}
+h1:hover{
+    color: blue;
+}
+a:hover{
+    color: grey; 
+}
+a:not([href]){
+    font-family: cursive;
+}
+li:nth-child(odd){
+    background-color: orange;
+}
+li:nth-child(even){
+    background-color: green;
+}
+  
